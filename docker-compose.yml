@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build:
+        context: .
+    image: registry.cn-hangzhou.aliyuncs.com/derrick_demo/derrick_demo_0820:1.0
+    ports:
+      - 3000
+    restart: always
